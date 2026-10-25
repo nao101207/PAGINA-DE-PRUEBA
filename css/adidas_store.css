@@ -1,0 +1,27 @@
+h1{
+    color: rgb(235, 159, 20);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    justify-content: left;
+}
+p{
+    color: rgb(0, 0, 0);
+    margin-bottom: 2px;
+    font-family: sans-serif;
+    flex-direction: column;
+    justify-content: left;
+    font-size: 1.3rem;
+}
+h2{
+    display: inline-block;
+    color: rgb(214, 3, 3);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 9px;
+        background-color: rgb(189, 163, 140);
+        justify-content: left;
+    
+}
+h2:hover{
+    background-color: rgb(252, 249, 250);
+    transition: 0.8s;
+}
