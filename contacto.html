@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTO</title>
+    <link rel="stylesheet" href="css/contacto-estilo.css">
+
+
+</head>
+<body>
+    <div class="container">
+        <form action="https://api.web3forms.com/submit" method="post">
+            <input type="hidden" name="access_key" value="cd53c601-377b-4520-b669-51ff1e293b2d">
+            <h2><i class="fa-solid fa-envelope"></i>Contacto</h2>
+            <p class="subtitle">Ingresa tus datos correctamente
+                y pronto te responderemos en tu correo.
+            </p>
+            <div class="input-group">
+                <label for="name"><i class="fa-solid fa-user">Nombre</i></label>
+                <input type="text" name="name" id="name" placeholder="Ingresa tus Nombres" required>
+                
+                <label for="phone"><i class="fa-solid fa-phone">Telefono</i></label>
+                <input type="tel" name="phone" id="phone"
+                placeholder="agrega tu número" required>
+
+                <label for="email"><i class="fa-solid fa-at">Email</i> </label>
+                <input type="email" name="email" id="email"
+                placeholder="Ingresa tu email" required>
+                
+                <label for="message"><i class="fa-solid fa-comment-dots">mensaje</i> </label>
+                <textarea name="message" id="message" rows="4"
+                placeholder="¿En qué podemos ayudarte?"></textarea>
+                <div class="form-links">
+                    <a href="#">Politica de Privacidad</a>
+                    <a href="#">Términos y condiciones</a>
+                </div>
+                <button type="submit" class="btn">
+                <span>Enviar Mensaje</span>
+                <i class="fa-solid fa-paper-plane"></i>
+                </button>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
